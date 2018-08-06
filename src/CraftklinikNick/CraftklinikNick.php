@@ -116,7 +116,7 @@ public $list = [];
 		$form->addButton(TextFormat::BLUE . "Pama178");
 		$form->addButton(TextFormat::BLUE . "DarkKobra");
 		$form->addButton(TextFormat::BLUE . "SkillShoxx");
-		$form->addButton(TextFormat::RED . "Nickname Zurücksetzen!");
+		$form->addButton(TextFormat::RED . "Nickname zurücksetzen!");
 		$form->sendToPlayer($player);
 		return $form;
 		
